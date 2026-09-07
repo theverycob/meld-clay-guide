@@ -9,7 +9,7 @@ body:
     id: versions
     attributes:
       label: Meld Clay and Blender versions
-      placeholder: "Meld Clay v1.0.1 / Blender 5.1.2"
+      placeholder: "Meld Clay v1 / Blender 5.1.2"
     validations:
       required: true
   - type: input
