@@ -1,0 +1,38 @@
+name: Report a problem
+description: Installation, modeling, materials or crashes
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please share a small public-safe example. Do not attach private client work."
+  - type: input
+    id: versions
+    attributes:
+      label: Meld Clay and Blender versions
+      placeholder: "Meld Clay v0.12 / Blender 5.1.2"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and GPU
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you select and which controls did you use?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, errors or minimal example
+      description: Include the full error text or relevant crash log. Attach a small .blend only if you can share it publicly.

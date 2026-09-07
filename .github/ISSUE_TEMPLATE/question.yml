@@ -1,0 +1,10 @@
+name: Ask a usage question
+description: Help with a Meld Clay workflow or control
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to make?
+      description: Include your Blender and Meld Clay versions and what you have already tried.
+    validations:
+      required: true
