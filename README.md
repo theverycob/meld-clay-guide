@@ -2,7 +2,9 @@
 
 Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.html locally.
 
-[Using Meld Clay](Using-Meld-Clay.html) starts with a beginner recipe and explains every sidebar button and control, including Shape style, Source rounding, Hand pressure, single-part Hold Shape, Copy/Paste and Clay Eyes. It works offline and can be searched by control name.
+[Using Meld Clay](Using-Meld-Clay.html) starts with a beginner recipe and explains every sidebar button and control, including Shape style, Source rounding, Hand pressure, single-part Hold Shape, Compression treatments and valley controls, Copy/Paste and Clay Eyes. It works offline and can be searched by control name.
+
+[Compression](index.html#compression) shows Gentle, Clumped and Pressed on the same clay form.
 
 [Artistic Guides](index.html#artistic-guides) offers short visual lessons. Start with [Soften the pinch, keep the crack](artistic-guides/keep-the-crack.html).
 
