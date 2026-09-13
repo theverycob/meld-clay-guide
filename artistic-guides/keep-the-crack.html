@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Soften the pinch, keep the crack · Meld Clay Artistic Guides</title>
+<meta name="description" content="A gentle Meld Clay lesson: soften a pinched patch while keeping a crack you love. Compare real Blender renders and follow three small steps.">
+<link rel="stylesheet" href="artistic.css"></head><body>
+<header><a class="brand" href="../index.html">meld<span>clay</span></a><a href="../index.html#artistic-guides">← Artistic Guides</a></header>
+<main><p class="eyebrow">Artistic Guides / 01 · A gentle shape fix</p>
+<h1>Soften the pinch.<br>Keep the character.</h1>
+<p class="intro">You love that crack. The little pinched patch beside it? Less so. Give the clay a gentler shape without starting your favorite detail over.</p>
+<a class="jump" href="#try-it">Try it on your model ↓</a>
+<section class="compare-section" aria-label="Compare the actual Blender renders">
+<div class="compare" id="comparison">
+<img src="assets/after.png" width="1400" height="1400" alt="After: the small dent on the upper left is softer; the long crack on the right remains recognizable.">
+<img class="before" src="assets/before.png" width="1400" height="1400" alt="Before: a pinched patch on the upper left of the clay pebble, beside a sweeping crack on the right.">
+<span class="badge left">BEFORE</span><span class="badge right">AFTER</span>
+<span class="divider" aria-hidden="true"><span>↔</span></span>
+<input id="compare-range" type="range" min="0" max="100" value="50" aria-label="Before and after comparison" aria-describedby="compare-help">
+</div><div class="compare-note" id="compare-help"><span><b>Drag to compare.</b> Watch the little dent on the upper left.</span><span>Same model. Only Hold Shape changed.</span></div>
+<div class="tools" role="group" aria-label="Choose comparison view"><button type="button" data-view="100">See before</button><button type="button" data-view="50">Compare</button><button type="button" data-view="0">See after</button></div>
+<noscript><p>Before and after, side by side:</p><div class="no-js-pair"><img src="assets/before.png" alt="Before softening"><img src="assets/after.png" alt="After softening"></div></noscript>
+</section>
+<div class="story"><div><p class="eyebrow">The detail to keep</p><h2>That lovely, wandering crack.</h2></div><p>It gives this little pebble its character. The small dent to its left catches the light awkwardly. We lowered <strong>Hold Shape</strong> to let that patch relax. The crack still belongs to the piece.</p></div>
+<div class="details"><figure><img src="assets/before-detail.png" alt="Close view before: the clay draws inward into a small pointed dent." width="1400" height="1400" loading="lazy"><figcaption><b>Before · a pinched patch</b>A little too tight.</figcaption></figure><figure><img src="assets/after-detail.png" alt="Close view after: the same patch is softer and less pointed." width="1400" height="1400" loading="lazy"><figcaption><b>After · a softer transition</b>A gentler catch of light.</figcaption></figure></div>
+<section id="try-it"><p class="eyebrow">Try it on your model</p><h2>One small change at a time.</h2>
+<p class="section-intro">Save a copy first. These controls leave your original parts editable, so you can adjust them again whenever you like.</p>
+<ol class="steps"><li><div><h3>Find the part that feels too tight.</h3><p>Select your clay model. If it has one source part, you can reach Hold Shape directly:</p><div class="route"><span>Meld Clay</span><span aria-hidden="true">→</span><span>Shape &amp; Melding</span><span aria-hidden="true">→</span><strong>Hold Shape</strong></div><p class="small">Several parts? Choose <b>Edit Parts</b>, select the affected piece, then find <b>Hold Shape</b> in <b>Join Controls</b>.</p></div></li>
+<li><div><h3>Let it soften a little.</h3><p>Lower <strong>Hold Shape</strong> a small amount. Pause and look. Keep going only while the shape feels better.</p><div class="hold-demo"><span>Our example · Hold Shape</span><div><b>1.0 <span aria-hidden="true">→</span> 0.0</b><em>Protected → free to soften</em></div></div><p class="small">This pebble already has Source rounding 1 and Knead / soften 45, with Hand pressure 0. Your model may need only a small nudge. If Hold Shape is already 0, try a little more <b>Knead / soften</b> instead.</p></div></li>
+<li><div><h3>Look at the shape and the crack together.</h3><p>Let the preview finish, then look from the same angle. Is the pinch softer? Does the crack still feel right? Stop there. Undo a step if you preferred the previous shape.</p><p class="small">If the preview still looks rough, use <b>Full Quality Now</b> before deciding.</p></div></li></ol></section>
+<aside class="keep"><h3>Leave the pattern alone.</h3><p>Keep <strong>Random seed</strong>, <strong>Crack seed</strong>, and their refresh arrows as they are. Leave the finish and crack layout settings alone for this fix, too. <strong>Shape Paste can bring in a different random pattern</strong>, so use the individual sliders here.</p></aside>
+<section><p class="eyebrow">Other gentle fixes</p><h2>Choose the adjustment that fits.</h2><div class="fixes">
+<div><h3>A corner feels too sharp</h3><p>Try a little more <strong>Knead / soften</strong>. It rounds the clay without choosing a new crack pattern.</p></div>
+<div><h3>A squeeze feels too deep</h3><p>Try less <strong>Hand pressure</strong>. Lowering Hold Shape can allow more pressure through, so reduce pressure itself when it causes the dent.</p></div>
+<div><h3>The surface feels too lumpy</h3><p>Under <strong>More shape controls</strong>, lower <strong>Hand-shaped amount</strong>. This eases surface unevenness while keeping the underlying crack pattern.</p></div></div>
+<p class="quiet">A gentle edit often keeps a favorite crack recognizable, as it does here. Larger shape changes can move or reshape cracks, so compare as you go. If the pinch is inside the crack itself, try <strong>Crack quality: Standard</strong> first.</p></section>
+<footer><a href="../index.html#artistic-guides">← Back to Artistic Guides</a><span>Meld Clay v1 · Actual Blender renders · Works offline</span></footer>
+</main><script src="artistic.js"></script></body></html>
