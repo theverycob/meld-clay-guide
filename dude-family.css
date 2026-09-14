@@ -1,0 +1,19 @@
+/* Little Dude exercises stay scoped to the first-model lesson. */
+.dude-family-section{border-top:1px solid #d7dece;margin-top:44px;padding-top:16px}
+.dude-family-section>.lead{max-width:none}
+.dude-family-section figure img{height:auto;max-height:none}
+.dude-seeds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
+.dude-seeds figure{margin:0}
+.dude-brothers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:28px 0}
+.dude-brother{min-width:0;background:#eeece6;border-radius:17px;overflow:hidden}
+.dude-brother>figure{margin:0;border-radius:0}
+.dude-brother-copy{padding:6px 22px 24px}
+.dude-brother h3{font-size:25px;margin:12px 0 8px}
+.dude-brother details{margin-top:18px;border-top:1px solid #ced8c7;padding-top:12px}
+.dude-brother summary{cursor:pointer;color:#285442;font-weight:650}
+.dude-brother ul{padding-left:20px;font-size:15px}
+.dude-brother .button{margin-top:12px}
+.dude-brothers .dude-brother:last-child{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr}
+.dude-brothers .dude-brother:last-child>figure{align-self:start}
+@media(max-width:900px){.dude-brothers{grid-template-columns:1fr}.dude-brothers .dude-brother:last-child{display:block}}
+@media(max-width:650px){.dude-seeds{gap:7px}.dude-seeds figcaption{padding:9px 6px;text-align:center}.dude-brother-copy{padding:6px 17px 21px}}

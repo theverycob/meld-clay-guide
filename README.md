@@ -2,7 +2,7 @@
 
 Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.html locally.
 
-[Your first model](index.html#first-model) follows the original six-part Little Dude blockout through Soft Dough, Palm rolled and optional clay eyes. Download the starter, body-only result or finished character beside the matching renders; all three examples work in Blender 4.5+.
+[Your first model](index.html#first-model) follows the original six-part Little Dude blockout through mint Soft Dough, Palm rolled and optional clay eyes. Continue with quirky Form variation and Random seed exercises, then meet Noodle, Puff and Crumb. Matching renders, recipes and eight editable Blender 4.5+ files include the starter stages, each character and a shared family studio.
 
 [Using Meld Clay](Using-Meld-Clay.html) starts with a beginner recipe and explains every sidebar button and control, including Shape style, Source rounding, Hand pressure, single-part Hold Shape, Compression treatments and valley controls, Copy/Paste and Clay Eyes. It works offline and can be searched by control name.
 

@@ -9,7 +9,8 @@ Little-Dude-Starter.blend
 The original six-part blockout: body, head, two ears and two feet.
 The parts are already selected. Click Meld Selected Parts, choose Clay Finish >
 Soft Dough, then Shape & Melding > Shape style > Palm rolled.
-Use Resolution 128, Random seed 0 and Hold Shape 0 to match the pictures.
+Set Clay color to mint green #95BA86. Use Resolution 128, Random seed 0 and
+Hold Shape 0 to match the pictures.
 Save your own working copy before experimenting.
 
 Little-Dude-Palm-Rolled.blend
