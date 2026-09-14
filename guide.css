@@ -3,6 +3,9 @@
 
 /* Compression studio recipes */
 .compression-style-guide{border-top:1px solid #d7dece;margin-top:48px;padding-top:12px}
+.compression-style-guide>.lead{max-width:none}
+.compression-style-guide>.eyebrow{margin-bottom:12px}
+.compression-style-guide>.eyebrow+h2{margin-top:0}
 .compression-style-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:30px 0}
 .compression-style-card{min-width:0;border:1px solid #d7dece;border-radius:18px;overflow:hidden;background:#fdfbf6}
 .compression-style-card figure{margin:0;border-radius:0}.compression-style-card figure img{max-height:none;height:auto}
