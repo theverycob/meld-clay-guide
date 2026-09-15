@@ -10,4 +10,6 @@ Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.ht
 
 [Artistic Guides](index.html#artistic-guides) offers short visual lessons. Start with [Soften the pinch, keep the crack](artistic-guides/keep-the-crack.html).
 
+[Showcase](index.html#showcase) opens with the Rock Dude left-arm study at Resolution 100: finger separations, a narrow opening and the ground beneath it, shown in actual Blender renders. The study includes images only. A small community gallery is reserved for submissions approved by the Meld Clay creator; it has no featured submissions yet.
+
 No build step, tracking or external fonts. [Get help](https://github.com/theverycob/meld-clay-guide/issues). This public repository contains documentation and original product renders, not the add-on download.
