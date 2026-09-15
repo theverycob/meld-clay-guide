@@ -1,59 +1,52 @@
-# Keeping a favorite crack while shaping clay
+# Keep a favorite crack while you shape
 
 Meld Clay v1 · Artist workflow
 
-A crack can become part of a model's character before the surrounding shape is finished. You can soften a pinched point, round a corner, or adjust a join without choosing a new random crack pattern. **Hold Shape and the individual shape and join controls leave both Random seed and Crack seed unchanged.** This lets you refine the clay around a surface detail you already like.
+Sometimes a crack gives a piece its character before you have finished the shape around it. You can soften a pinch, round a corner or adjust a join while keeping the crack pattern you chose.
 
-There are two different kinds of preservation here: keeping the seeded pattern, and keeping the exact surface layout. A shape edit can preserve the first while changing the second.
+**Random seed and Crack seed choose the pattern.** Ordinary shape and join adjustments keep those numbers, but a crack can still stretch, shift or disappear as the clay changes beneath it. Make small changes and watch the detail you want to keep.
 
-## What stays, and what can change
+## Try one small change
 
-- **Seed preservation:** the operation does not roll a new pattern or change either seed value.
-- **Surface refresh:** Meld Clay may rebuild crack samples, centers, or surface paths after the underlying clay changes, using those same seeds. This is different from pressing a seed refresh arrow.
-- **Visible placement:** the same pattern can meet a reshaped surface differently. A small adjustment can retain a recognizable favorite crack; a large change can move its apparent position, change its extent, or make it disappear. An unchanged seed is not a pin attaching a crack to a particular source vertex.
+1. Save a copy once you like the crack. Keep **Random seed**, **Crack seed** and the crack layout settings as they are.
+2. If a part feels too pinched, lower its **Hold Shape** a little. For a single-part model, use the slider under **Shape & Melding**. For several parts, choose **Edit Parts**, select the affected piece, then find **Hold Shape** under **Join Controls**.
+3. Try a small increase in **Knead / soften** to round a corner. If a broad pressure dent is the problem, reduce **Hand pressure** instead. Lowering Hold Shape can also let hand pressure affect the piece more.
+4. Keep **Full-detail editing** on. Let the surface finish updating, or use **Full Quality Now**, then check the crack and outline from the same angle.
+5. If the crack wall itself looks stepped or pinched, try **Crack quality → Standard** or **Close-up** before changing the overall shape.
 
-The following applies to ordinary edits on an already configured live model. Older models that adopt a new shaping or crack method may rebuild supporting data during that upgrade.
+Stop at the shape you like. A favorite crack is easier to keep through several small adjustments than one large change.
 
-## Controls that keep the existing seeds
+## Pick the control for the job
 
-| Operation | What happens to the cracks | Artistic use |
-| --- | --- | --- |
-| **Hold Shape** | Keeps both seeds. Prepared detailed clay deforms with the part before bite impressions. Larger edits can stretch or compress visible cracks. | Lower it to let a pinched or faceted part soften. Raise it to protect a contour. It protects shape, not cracks. |
-| **Knead / soften** | Keeps both seeds; changes the surface on which cracks are evaluated. Sampling and applicable captured layouts may refresh. | Round a corner or soften an intersection while retaining the chosen pattern. |
-| **Surface cleanup: Auto / Off** | Keeps both seeds. Current softening includes this setting in surface refresh checks. | Auto reduces small remeshing steps, including on held parts and at Knead 0. |
-| **Source rounding** | Keeps both seeds; reshapes the source contribution before melding and can refresh crack data. | Round a coarse cage. Its effect increases with Knead up to 45 and is reduced by Hold Shape. |
-| **Hand pressure, Pressure areas, Pressure breadth** | Keep both seeds. The surface changes beneath the crack pattern, so crack data may refresh. | Adjust broad squeezes or reduce a pressure dent without randomizing cracks. |
-| **Palm rolled, Thumb pressed, Gently kneaded** | Keep both seeds, but change several shape settings together and can refresh crack data. | Explore a broader shape treatment. For a small correction, individual controls give finer control. Choosing **Custom** alone keeps the current result. |
-| **Inflate / deflate** | Keeps both seeds; changes the parts before melding and can refresh crack data. | Adjust fullness or bridge a small gap. A new connection can change visible cracks substantially. |
-| **Form variation** | Keeps both seeds; reuses the current global seed for different part proportions. Can refresh crack data. | Adjust fullness or proportions, checking cracks where the silhouette changes. |
-| **Join style: Blended / Pressed; Crease strength, Crease width, End taper** | Keep both seeds. Changed join geometry can refresh crack data. A pressed join crease is a separate feature from the procedural crack pattern. | Soften, strengthen, widen, or taper a contact without rolling new cracks. Join Copy/Paste also keeps the seeds; it does not copy Hold Shape. |
-| **Hand-shaped amount, Hand-shaped scale** | Keep both seeds and reuse the pre-displacement crack layout during ordinary edits. These surface-noise controls are separate from Hand pressure. | Reduce surface unevenness around a crack while keeping its underlying pattern. The displaced crack still moves with the surface and its shading can change. |
-| **Midlevel** | Keeps both seeds and reuses the pre-displacement crack layout during ordinary edits. | Offset the finished surface along its normals. This differs from Inflate / deflate, which changes the source parts before melding. |
-| **Resolution** | Keeps both seeds, but rebuilds the base mesh and crack sampling; applicable captured layouts can refresh. | Resolve small features. Treat it as a quality adjustment and compare the settled result. |
+These controls keep your seed numbers. Watch the crack as you use them: keeping a pattern does not lock every mark to the same spot.
 
-Editing or moving an individual source, changing its modifiers, or adding/removing parts also leaves the seeds unchanged, but can substantially change the surface and visible layout. These are not exact-placement-preserving operations.
+| Control | What to look for |
+| --- | --- |
+| **Hold Shape** | Lower it to soften a pinched or angular piece; raise it to keep more of its outline. Large changes can stretch or squeeze cracks. |
+| **Knead / soften** | Round a corner or soften the place where parts meet. |
+| **Surface cleanup: Auto / Off** | Try Auto for small bumps or stair-step edges, including when Knead is 0. |
+| **Source rounding** | Round a coarse starting piece. Hold Shape can limit how much it rounds. |
+| **Hand pressure, Pressure areas, Pressure breadth** | Adjust broad squeezes and dents around the crack. |
+| **Palm rolled, Thumb pressed, Gently kneaded** | Try a different overall clay treatment. For a tiny correction, adjust individual controls instead. Choosing Custom alone keeps the current look. |
+| **Inflate / deflate** | Add fullness or pull it back. Joining two previously separate areas can change nearby cracks a lot. |
+| **Form variation** | Explore different proportions, watching the cracks where the outline changes. |
+| **Blended / Pressed, Crease strength, Crease width, End taper** | Shape the seam where two parts meet. Join seams and the all-over crack pattern have separate controls. |
+| **Hand-shaped amount, Hand-shaped scale** | Adjust small surface unevenness. These controls are separate from the broader Hand pressure effect. |
+| **Midlevel** | Shift the surface inward or outward. Check both the silhouette and the crack edges. |
+| **Resolution** | Increase it if a narrow crack or small opening looks rough. Let the surface settle before comparing. |
 
-## Soften a pinch while keeping a favorite crack
+Moving, reshaping, adding or removing parts can also change how cracks sit on the clay. Keep checking the same detail from a few angles.
 
-1. Save a working copy once you like a crack. Keep **Random seed**, **Crack seed**, and the crack layout settings unchanged.
-2. If the pinch belongs to a protected source, lower **Hold Shape** gradually. On a one-part model, select the finished model and use the slider below Knead / soften. On a multi-part model, use **Edit Parts**, select that source, and adjust Hold Shape in **Join Controls**.
-3. Compare a small increase in **Knead / soften**. With clay shaping enabled, Source rounding can help round a coarse source. If broad pressure caused the dent, try reducing **Hand pressure** instead. Hold Shape also protects against hand pressure, so lowering Hold can expose more of that effect.
-4. Let refinement finish and use **Full Quality Now** in either editing mode. Keep Full-detail editing on to see the complete surface as you work. Inspect the favorite crack and the silhouette from the same angle after each adjustment.
-5. If the pinch is inside a narrow crack wall rather than in the underlying shape, check **Crack quality** first. Base mesh can show steps or pinches; Standard or Close-up can improve sampling without rolling a new seed. Compare the result, since sampling can affect visible detail.
+## What changes the pattern?
 
-The useful freedom is that a shape correction does not demand a new random pattern. Your successful pinch fix is a good example: the clay can soften while a recognizable crack remains part of the design.
+- **Random seed** and its arrow change the shared variation, including cracks. **Crack seed** and its arrow change the crack pattern.
+- **Shape & Melding Paste** includes Random seed. Write down your current number before pasting if you want to return to that pattern.
+- **Layout density, Texture scale, crack style, coverage, size and width** can move or reshape cracks even when the seed numbers stay the same. Crowded cracks may become shorter or disappear.
+- **Clay Finish**, its reset button, and **Finish** or **Fingerprints & Cracks Paste** can bring in different crack settings. Save a copy before trying them on a look you want to keep.
+- **Sticky** keeps the pattern with the whole model when you move it. **World** keeps the pattern in place while the model moves through it. Switching between them can change the placement.
 
-## Operations to distinguish from a local shape correction
+## Working with an older example
 
-- **Random seed or its arrow** changes the shared variation, including cracks. **Crack seed or its arrow** deliberately changes the crack pattern alone.
-- **Shape & Melding Paste includes Random seed.** It can therefore change cracks even though it does not copy Crack seed. Record the destination's global seed before pasting if you intend to restore it; the pasted shape may still change the surface layout.
-- **Layout density, Texture scale, crack style, coverage, detail, size, and width** alter crack layout or extent without necessarily changing a seed. In current Soft Dough, surface paths can be regenerated and crowded paths can be shortened or omitted. Keeping the seed alone does not freeze these results.
-- **Clay Finish selection/reset and Finish or Fingerprints & Cracks Paste** can replace crack-related settings. Check those values before using them on a look you want to retain.
-- **Sticky / World coordinates:** moving the whole model with its parts through the whole-model controller in Sticky space keeps its pattern attached. World space samples a fixed world pattern, so movement can change the visible placement without changing a seed. Switching spaces can also change the layout.
-- **Update Softening and other explicit method updates** retain recovery data, but may change the generated result. Compare them on a saved copy of an authored model.
+Save a copy before using **Update Softening** or another update offered by an older model. Compare the outline and favorite crack afterward.
 
-## Current and older models
-
-This reference describes the current v1 full-detail workflow. The first edit after loading or Undo/Redo can prepare reusable data again. Custom or older graph layouts can use the full canonical evaluation path instead of the accelerated path.
-
-Hold retains its saved starting value. The current softened-to-held range can differ from earlier builds, particularly on angular parts and at extreme values. Keep a separate saved copy and judge the shape and crack together. The older artistic comparison images document their authored method; they are visual references rather than exact endpoint guarantees for current Hold.
+Some example pictures were made with an earlier version of Hold Shape. Your slider may reach a similar look at a different value. Use the pictures as a visual reference and stop when the piece feels right.
