@@ -2,7 +2,7 @@
 
 Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.html locally.
 
-[Tidepool Courier](index.html#courier) is an original moving creature study: keep its shell weathered while its face, hands and flippers remain smooth. Continue with [live Edit Mode shaping](index.html#edit-mode) to pull the source vertices of its trailing flipper and watch the clay follow. These new lessons use the separate v1 Crack Exposure Review build. Their four editable stages are included in the Gumroad review download; only their text and actual Blender renders are public.
+[Tidepool Courier](index.html#courier) is an original moving creature study: keep its shell weathered while its face, hands and flippers remain smooth. Continue with [live Edit Mode shaping](index.html#edit-mode) to pull the source vertices of its trailing flipper and watch the clay follow. These lessons use the current v1 installer. Their four editable stages are included in the Gumroad download; only their text and actual Blender renders are public.
 
 [Your first model](index.html#first-model) follows the original six-part Little Dude blockout through mint Soft Dough, Palm rolled and optional clay eyes. Continue with quirky Form variation and Random seed exercises, then meet Noodle, Puff and Crumb. Matching renders, recipes and eight editable Blender 4.5+ files include the starter stages, each character and a shared family studio.
 
@@ -15,3 +15,5 @@ Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.ht
 [Showcase](index.html#showcase) opens with the Rock Dude left-arm study at Resolution 100: finger separations, a narrow opening and the ground beneath it, shown in actual Blender renders. The study includes images only. A small community gallery is reserved for submissions approved by the Meld Clay creator; it has no featured submissions yet.
 
 No build step, tracking or external fonts. [Get help](https://github.com/theverycob/meld-clay-guide/issues). This public repository contains documentation and original product renders, not the add-on download.
+
+[Controls](index.html#controls) introduces Clear Cage View, Focus and Tab to open Edit Parts. The [Courier Edit Mode lesson](index.html#edit-mode) includes clean rendered comparisons and a short cage-view exercise.
