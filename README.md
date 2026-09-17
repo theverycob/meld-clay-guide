@@ -21,3 +21,7 @@ No build step, tracking or external fonts. [Get help](https://github.com/thevery
 ## Smooth placement
 
 [Sidebar & button guide](index.html#controls), [Troubleshooting & support](index.html#help) and the [complete control reference](Using-Meld-Clay.html#preview) explain Smooth placement, its preparation percentage and the Prepare Smooth Placement button. Ordinary moves prepare automatically after a pause. After Undo/Redo, or when a structural edit prompts it, click the button to resume smooth dragging. Exact clay remains available while the preview is paused. We’ll improve this extra preparation step soon.
+
+## Lighting in the Courier files
+
+The guide pictures use an HDRI that is not included in the download. The supplied Courier scenes use studio lights and a neutral environment, so their lighting will look different. You can add your own HDRI in the Shader Editor’s World view: open it in an Environment Texture node and connect Color to the Background color.
