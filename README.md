@@ -17,3 +17,7 @@ Open [the guide](https://theverycob.github.io/meld-clay-guide/) or open index.ht
 No build step, tracking or external fonts. [Get help](https://github.com/theverycob/meld-clay-guide/issues). This public repository contains documentation and original product renders, not the add-on download.
 
 [Controls](index.html#controls) introduces Clear Cage View, Focus and Tab to open Edit Parts. The [Courier Edit Mode lesson](index.html#edit-mode) includes clean rendered comparisons and a short cage-view exercise.
+
+## Smooth placement
+
+[Sidebar & button guide](index.html#controls), [Troubleshooting & support](index.html#help) and the [complete control reference](Using-Meld-Clay.html#preview) explain Smooth placement, its preparation percentage and the Prepare Smooth Placement button. Ordinary moves prepare automatically after a pause. After Undo/Redo, or when a structural edit prompts it, click the button to resume smooth dragging. Exact clay remains available while the preview is paused. We’ll improve this extra preparation step soon.
